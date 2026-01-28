@@ -3,176 +3,178 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- SEO METADATA -->
     <title>Кредит онлайн на карту в Україні — ТОП позик 2024</title>
-    <meta name="description" content="Порівняння мікрокредитів України. Отримайте гроші під 0.01% за 5 хвилин. Без довідок та перевірок. Всі МФО в одному місці.">
-    
-    <!-- JSON-LD (Техническое SEO для Гугла) -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FinancialService",
-      "name": "MoneyExpert UA",
-      "address": { "@type": "PostalAddress", "addressCountry": "UA" },
-      "currenciesAccepted": "UAH",
-      "priceRange": "100-30000 UAH"
-    }
-    </script>
-
+    <meta name="description" content="Порівняння найкращих МФО України. Кредити під 0.01% за 5 хвилин.">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com');
         body { font-family: 'Inter', sans-serif; }
-        .lang-ru { display: none; } /* По умолчанию русский скрыт */
+        .lang-ru { display: none; }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-900">
 
-    <!-- NAVIGATION -->
+    <!-- NAV -->
     <nav class="bg-white border-b border-slate-200 sticky top-0 z-50">
         <div class="max-w-5xl mx-auto px-4 py-3 flex justify-between items-center">
-            <div class="font-black text-2xl text-blue-600 tracking-tighter">
-                FIN<span class="text-yellow-500">HUB</span>
-            </div>
-            <div class="flex items-center space-x-4">
-                <div class="bg-slate-100 p-1 rounded-lg">
-                    <button onclick="changeLang('uk')" id="btn-uk" class="px-3 py-1 rounded-md text-sm font-bold bg-white shadow-sm text-blue-600 transition">UA</button>
-                    <button onclick="changeLang('ru')" id="btn-ru" class="px-3 py-1 rounded-md text-sm font-bold text-slate-500 hover:text-blue-600 transition">RU</button>
-                </div>
+            <div class="font-black text-2xl text-blue-600 tracking-tighter italic">FIN<span class="text-yellow-500">HUB</span></div>
+            <div class="bg-slate-100 p-1 rounded-lg">
+                <button onclick="changeLang('uk')" id="btn-uk" class="px-3 py-1 rounded-md text-sm font-bold bg-white shadow-sm text-blue-600">UA</button>
+                <button onclick="changeLang('ru')" id="btn-ru" class="px-3 py-1 rounded-md text-sm font-bold text-slate-500">RU</button>
             </div>
         </div>
     </nav>
 
-    <!-- HERO SECTION -->
-    <header class="bg-blue-600 py-12 px-4 text-center">
-        <h1 class="text-3xl md:text-5xl font-black text-white mb-4">
-            <span class="lang-uk">Кредит онлайн на карту в Україні</span>
-            <span class="lang-ru">Кредит онлайн на карту в Украине</span>
+    <header class="bg-blue-600 py-10 px-4 text-center text-white">
+        <h1 class="text-3xl md:text-5xl font-black mb-4">
+            <span class="lang-uk">Кредит онлайн на карту 24/7</span>
+            <span class="lang-ru">Кредит онлайн на карту 24/7</span>
         </h1>
-        <p class="text-blue-100 text-lg max-w-2xl mx-auto font-medium">
-            <span class="lang-uk">Порівнюємо 30+ МФО. Перша позика під 0.01% за 5 хвилин без дзвінків.</span>
-            <span class="lang-ru">Сравниваем 30+ МФО. Первый заем под 0.01% за 5 минут без звонков.</span>
+        <p class="text-blue-100 text-lg">
+            <span class="lang-uk">Оберіть кращу пропозицію під 0.01%</span>
+            <span class="lang-ru">Выберите лучшее предложение под 0.01%</span>
         </p>
     </header>
 
-    <main class="max-w-4xl mx-auto p-4 md:py-10">
+    <main class="max-w-4xl mx-auto p-4 md:py-8">
         
-        <!-- КАРТОЧКА ОФФЕРА 1 (Moneyveo) -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 mb-6 hover:shadow-md transition-all flex flex-col md:flex-row items-center">
-            <div class="flex-1 w-full text-center md:text-left">
-                <div class="flex items-center justify-center md:justify-start mb-4">
-                    <h2 class="text-2xl font-black text-slate-800">Moneyveo</h2>
-                    <span class="ml-3 bg-green-100 text-green-700 text-[10px] px-2 py-1 rounded-full font-black uppercase">🔥 0.01%</span>
-                </div>
-                <div class="grid grid-cols-3 gap-2">
-                    <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
-                        <p class="text-[10px] text-slate-400 font-bold uppercase tracking-widest">Сума до</p>
-                        <p class="font-black text-lg">30 000 ₴</p>
-                    </div>
-                    <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
-                        <p class="text-[10px] text-slate-400 font-bold uppercase tracking-widest">Термін</p>
-                        <p class="font-black text-lg">30 дн.</p>
-                    </div>
-                    <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
-                        <p class="text-[10px] text-slate-400 font-bold uppercase tracking-widest">Схвалення</p>
-                        <p class="font-black text-lg">98%</p>
-                    </div>
+        <!-- Функция создания карточки (шаблон) -->
+        <!-- 1. Moneyveo -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 mb-4 flex flex-col md:flex-row items-center hover:shadow-md transition">
+            <div class="flex-1 w-full">
+                <h2 class="text-2xl font-black text-blue-800">Moneyveo</h2>
+                <div class="grid grid-cols-3 gap-2 mt-4 text-center">
+                    <div class="bg-slate-50 p-2 rounded"> <p class="text-[10px] text-slate-400">СУМА</p> <p class="font-bold">30 000 ₴</p> </div>
+                    <div class="bg-slate-50 p-2 rounded"> <p class="text-[10px] text-slate-400">СТАВКА</p> <p class="font-bold text-green-600">0.01%</p> </div>
+                    <div class="bg-slate-50 p-2 rounded"> <p class="text-[10px] text-slate-400">ТЕРМІН</p> <p class="font-bold">30 дн.</p> </div>
                 </div>
             </div>
             <div class="mt-6 md:mt-0 md:ml-8 w-full md:w-auto">
-                <a href="ТВОЯ_ССЫЛКА_ТУТ" target="_blank" rel="nofollow" class="block w-full bg-yellow-400 hover:bg-yellow-500 text-blue-900 font-black py-4 px-10 rounded-xl text-center shadow-lg transition transform active:scale-95">
-                    <span class="lang-uk">ОТРИМАТИ</span>
-                    <span class="lang-ru">ПОЛУЧИТЬ</span>
+                <a href="ССЫЛКА_НА_ОФФЕР" target="_blank" rel="nofollow" class="block bg-yellow-400 text-blue-900 font-black py-4 px-10 rounded-xl text-center shadow-lg active:scale-95 transition">
+                    <span class="lang-uk">ОТРИМАТИ</span><span class="lang-ru">ПОЛУЧИТЬ</span>
                 </a>
-                <p class="text-[9px] text-center text-slate-400 mt-2 italic">Ліцензія №161 від 14.05.2014</p>
             </div>
         </div>
 
-        <!-- КАРТОЧКА ОФФЕРА 2 (MyCredit) -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 mb-6 hover:shadow-md transition-all flex flex-col md:flex-row items-center">
-            <div class="flex-1 w-full text-center md:text-left">
-                <div class="flex items-center justify-center md:justify-start mb-4">
-                    <h2 class="text-2xl font-black text-slate-800">MyCredit</h2>
-                    <span class="ml-3 bg-blue-100 text-blue-700 text-[10px] px-2 py-1 rounded-full font-black uppercase">Без дзвінків</span>
-                </div>
-                <div class="grid grid-cols-3 gap-2">
-                    <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
-                        <p class="text-[10px] text-slate-400 font-bold uppercase tracking-widest">Сума до</p>
-                        <p class="font-black text-lg text-slate-700">18 000 ₴</p>
-                    </div>
-                    <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
-                        <p class="text-[10px] text-slate-400 font-bold uppercase tracking-widest">Термін</p>
-                        <p class="font-black text-lg text-slate-700">64 дн.</p>
-                    </div>
-                    <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
-                        <p class="text-[10px] text-slate-400 font-bold uppercase tracking-widest">Вік</p>
-                        <p class="font-black text-lg text-slate-700">18-75</p>
-                    </div>
+        <!-- 2. MyCredit -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 mb-4 flex flex-col md:flex-row items-center hover:shadow-md transition">
+            <div class="flex-1 w-full">
+                <h2 class="text-2xl font-black text-slate-800">MyCredit</h2>
+                <div class="grid grid-cols-3 gap-2 mt-4 text-center">
+                    <div class="bg-slate-50 p-2 rounded"> <p class="text-[10px] text-slate-400">СУМА</p> <p class="font-bold">18 000 ₴</p> </div>
+                    <div class="bg-slate-50 p-2 rounded"> <p class="text-[10px] text-slate-400">СТАВКА</p> <p class="font-bold text-green-600">0.01%</p> </div>
+                    <div class="bg-slate-50 p-2 rounded"> <p class="text-[10px] text-slate-400">ВІК</p> <p class="font-bold">18-75</p> </div>
                 </div>
             </div>
             <div class="mt-6 md:mt-0 md:ml-8 w-full md:w-auto">
-                <a href="ТВОЯ_ССЫЛКА_ТУТ" target="_blank" rel="nofollow" class="block w-full bg-blue-600 hover:bg-blue-700 text-white font-black py-4 px-10 rounded-xl text-center shadow-lg transition transform active:scale-95">
-                    <span class="lang-uk">ОТРИМАТИ</span>
-                    <span class="lang-ru">ПОЛУЧИТЬ</span>
+                <a href="ССЫЛКА_НА_ОФФЕР" target="_blank" rel="nofollow" class="block bg-blue-600 text-white font-black py-4 px-10 rounded-xl text-center shadow-lg active:scale-95 transition">
+                    <span class="lang-uk">ОТРИМАТИ</span><span class="lang-ru">ПОЛУЧИТЬ</span>
                 </a>
-                <p class="text-[9px] text-center text-slate-400 mt-2 italic">Ліцензія №146 від 20.10.2016</p>
             </div>
         </div>
 
-        <!-- SEO ТЕКСТ (Разный для UA и RU) -->
-        <article class="mt-16 bg-white p-8 rounded-2xl border border-slate-100 shadow-sm text-slate-600 leading-relaxed">
-            <div class="lang-uk">
-                <h3 class="text-2xl font-black text-slate-800 mb-4">Як отримати кредит онлайн в Україні?</h3>
-                <p class="mb-4">Для того щоб отримати швидку позику на карту, вам необхідно бути громадянином України віком від 18 років. Процес займає не більше 15 хвилин...</p>
-                <ul class="list-disc ml-5 space-y-2 font-medium">
-                    <li>Без офіційного працевлаштування</li>
-                    <li>З поганою кредитною історією</li>
-                    <li>Цілодобово 24/7</li>
-                </ul>
+        <!-- 3. Credit7 -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 mb-4 flex flex-col md:flex-row items-center hover:shadow-md transition">
+            <div class="flex-1 w-full">
+                <h2 class="text-2xl font-black text-slate-800">Credit7</h2>
+                <div class="grid grid-cols-3 gap-2 mt-4 text-center">
+                    <div class="bg-slate-50 p-2 rounded"> <p class="text-[10px] text-slate-400">СУМА</p> <p class="font-bold">15 000 ₴</p> </div>
+                    <div class="bg-slate-50 p-2 rounded"> <p class="text-[10px] text-slate-400">ЧАС</p> <p class="font-bold">7 хв.</p> </div>
+                    <div class="bg-slate-50 p-2 rounded"> <p class="text-[10px] text-slate-400">ВІК</p> <p class="font-bold">18+</p> </div>
+                </div>
             </div>
-            <div class="lang-ru">
-                <h3 class="text-2xl font-black text-slate-800 mb-4">Как получить кредит онлайн в Украине?</h3>
-                <p class="mb-4">Для того чтобы получить быстрый займ на карту, вам необходимо быть гражданином Украины старше 18 лет. Процесс занимает не более 15 минут...</p>
-                <ul class="list-disc ml-5 space-y-2 font-medium">
-                    <li>Без официального трудоустройства</li>
-                    <li>С плохой кредитной историей</li>
-                    <li>Круглосуточно 24/7</li>
-                </ul>
+            <div class="mt-6 md:mt-0 md:ml-8 w-full md:w-auto">
+                <a href="ССЫЛКА_НА_ОФФЕР" target="_blank" rel="nofollow" class="block bg-slate-800 text-white font-black py-4 px-10 rounded-xl text-center shadow-lg active:scale-95 transition">
+                    <span class="lang-uk">ОТРИМАТИ</span><span class="lang-ru">ПОЛУЧИТЬ</span>
+                </a>
             </div>
-        </article>
+        </div>
+
+        <!-- 4. CreditPlus -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 mb-4 flex flex-col md:flex-row items-center hover:shadow-md transition">
+            <div class="flex-1 w-full">
+                <h2 class="text-2xl font-black text-slate-800">CreditPlus</h2>
+                <div class="grid grid-cols-3 gap-2 mt-4 text-center">
+                    <div class="bg-slate-50 p-2 rounded"> <p class="text-[10px] text-slate-400">СУМА</p> <p class="font-bold">25 000 ₴</p> </div>
+                    <div class="bg-slate-50 p-2 rounded"> <p class="text-[10px] text-slate-400">СТАВКА</p> <p class="font-bold text-green-600">0.01%</p> </div>
+                    <div class="bg-slate-50 p-2 rounded"> <p class="text-[10px] text-slate-400">ТЕРМІН</p> <p class="font-bold">30 дн.</p> </div>
+                </div>
+            </div>
+            <div class="mt-6 md:mt-0 md:ml-8 w-full md:w-auto">
+                <a href="ССЫЛКА_НА_ОФФЕР" target="_blank" rel="nofollow" class="block bg-orange-500 text-white font-black py-4 px-10 rounded-xl text-center shadow-lg active:scale-95 transition">
+                    <span class="lang-uk">ОТРИМАТИ</span><span class="lang-ru">ПОЛУЧИТЬ</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- 5. Miloan -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 mb-4 flex flex-col md:flex-row items-center hover:shadow-md transition">
+            <div class="flex-1 w-full">
+                <h2 class="text-2xl font-black text-slate-800">Miloan</h2>
+                <div class="grid grid-cols-3 gap-2 mt-4 text-center">
+                    <div class="bg-slate-50 p-2 rounded"> <p class="text-[10px] text-slate-400">СУМА</p> <p class="font-bold">20 000 ₴</p> </div>
+                    <div class="bg-slate-50 p-2 rounded"> <p class="text-[10px] text-slate-400">ПЕРШИЙ</p> <p class="font-bold text-green-600">0%</p> </div>
+                    <div class="bg-slate-50 p-2 rounded"> <p class="text-[10px] text-slate-400">ВІК</p> <p class="font-bold">18-65</p> </div>
+                </div>
+            </div>
+            <div class="mt-6 md:mt-0 md:ml-8 w-full md:w-auto">
+                <a href="ССЫЛКА_НА_ОФФЕР" target="_blank" rel="nofollow" class="block bg-indigo-600 text-white font-black py-4 px-10 rounded-xl text-center shadow-lg active:scale-95 transition">
+                    <span class="lang-uk">ОТРИМАТИ</span><span class="lang-ru">ПОЛУЧИТЬ</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- 6. SelfieCredit -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 mb-4 flex flex-col md:flex-row items-center hover:shadow-md transition">
+            <div class="flex-1 w-full">
+                <h2 class="text-2xl font-black text-slate-800">SelfieCredit</h2>
+                <div class="grid grid-cols-3 gap-2 mt-4 text-center">
+                    <div class="bg-slate-50 p-2 rounded"> <p class="text-[10px] text-slate-400">СУМА</p> <p class="font-bold">15 000 ₴</p> </div>
+                    <div class="bg-slate-50 p-2 rounded"> <p class="text-[10px] text-slate-400">ЧАС</p> <p class="font-bold">5 хв.</p> </div>
+                    <div class="bg-slate-50 p-2 rounded"> <p class="text-[10px] text-slate-400">БЕЗ ФОТО</p> <p class="font-bold">Так</p> </div>
+                </div>
+            </div>
+            <div class="mt-6 md:mt-0 md:ml-8 w-full md:w-auto">
+                <a href="ССЫЛКА_НА_ОФФЕР" target="_blank" rel="nofollow" class="block bg-pink-600 text-white font-black py-4 px-10 rounded-xl text-center shadow-lg active:scale-95 transition">
+                    <span class="lang-uk">ОТРИМАТИ</span><span class="lang-ru">ПОЛУЧИТЬ</span>
+                </a>
+            </div>
+        </div>
 
     </main>
 
-    <!-- FOOTER -->
-    <footer class="bg-slate-900 text-slate-500 py-12 px-4 text-[10px] border-t border-slate-800">
+    <footer class="bg-slate-900 text-slate-500 py-10 px-4 text-[10px] text-center border-t border-slate-800">
         <div class="max-w-4xl mx-auto">
-            <div class="text-center space-y-4 mb-8">
-                <p class="uppercase font-bold tracking-widest text-slate-400 text-[12px]">Попередження про наслідки</p>
-                <p class="lang-uk italic">Річна відсоткова ставка (APR) може сягати 760%. У разі несвоєчасного виконання зобов'язань може бути нарахована пеня. Наш сервіс не є кредитором, а здійснює підбір фінансових послуг.</p>
-                <p class="lang-ru italic">Годовая процентная ставка (APR) может достигать 760%. В случае несвоевременного выполнения обязательств может быть начислена пеня.</p>
-            </div>
-            <div class="pt-8 border-t border-slate-800 text-center uppercase tracking-tighter font-bold">
-                &copy; 2024 FINHUB UA — ВСІ ПРАВА ЗАХИЩЕНІ
-            </div>
+            <p class="mb-4 font-bold uppercase tracking-widest text-slate-400">Попередження</p>
+            <p class="italic mb-6">Максимальна річна ставка (APR) - до 760%. Усі МФО мають ліцензії НБУ. Приклад: 1000 грн на 10 днів під 0.01% - до повернення 1001 грн.</p>
+            <p>&copy; 2024 FINHUB UA. Всі права захищені.</p>
         </div>
     </footer>
 
-    <!-- LOGIC -->
     <script>
         function changeLang(lang) {
             const uks = document.querySelectorAll('.lang-uk');
             const rus = document.querySelectorAll('.lang-ru');
             const btnUk = document.getElementById('btn-uk');
             const btnRu = document.getElementById('btn-ru');
-
             if(lang === 'uk') {
-                uks.forEach(el => el.style.display = 'block');
-                rus.forEach(el => el.style.display = 'none');
-                btnUk.classList.add('bg-white', 'shadow-sm', 'text-blue-600');
-                btnUk.classList.remove('text-slate-500');
-                btnRu.classList.remove('bg-white', 'shadow-sm', 'text-blue-600');
-                btnRu.classList.add('text-slate-500');
+                uks.forEach(e => e.style.display = 'block');
+                rus.forEach(e => e.style.display = 'none');
+                btnUk.classList.add('bg-white','shadow-sm','text-blue-600');
+                btnRu.classList.remove('bg-white','shadow-sm','text-blue-600');
+                document.documentElement.lang = 'uk';
+            } else {
+                uks.forEach(e => e.style.display = 'none');
+                rus.forEach(e => e.style.display = 'block');
+                btnRu.classList.add('bg-white','shadow-sm','text-blue-600');
+                btnUk.classList.remove('bg-white','shadow-sm','text-blue-600');
+                document.documentElement.lang = 'ru';
+            }
+        }
+    </script>
+</body>
+</html>
+nRu.classList.add('text-slate-500');
                 document.documentElement.lang = 'uk';
             } else {
                 uks.forEach(el => el.style.display = 'none');
